@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 5px 25px;
+  font-size: 14px;
+}
+
+/*___ wrap ___*/
+
+.wrap {
+  width: 55%;
+  margin: 0 auto;
+}
+
+/*___ information ___*/
+
+.information {
+  width: 100%;
+  height: 300px;
+}
+
+.bookimage{
+	float: left;
+}
+
+.content{
+  padding-left: 225px;
+}
+
+.content .title{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.textcontent{
+  width: 363px;
+}
+
+/*___ comment ___*/
+
+.comment {
+  width: 100%;
+  height: 100px;
+}
+
+input[type="text"]{
+  border: 2px solid black;
+  display: block;
+  padding: 34px 0;
+  text-align: left;
+  color: #cbcccb;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  border: 2px solid black;
+  display: block;
+  padding: 34px 5px;
+  border-radius: 4px;
+}
+
+
+/*___ review ___*/
+
+table{
+	border-collapse: collapse;
+  height: 205px;
+  width: 600px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th  {
+	border: 1px solid black;
+}
+
+table tr:nth-child(2n+1) {
+  background: #ececec;
+}
+
+th {
+  background-color: #ccc;
+	font-size: 11px;
+  padding: 10px;
+	text-align: left;
+}
+
+.first-td{
+  border-right: 2px solid black;
+}
