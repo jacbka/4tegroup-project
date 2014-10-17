@@ -1,6 +1,6 @@
 body {
-	margin: 0;
-	padding: 5px 25px;
+  margin: 0;
+  padding: 5px 25px;
   font-size: 14px;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .bookimage{
-	float: left;
+  float: left;
 }
 
 .content{
@@ -38,35 +38,39 @@ body {
 /*___ comment ___*/
 
 .comment {
-  width: 100%;
+  width: 88%;
   height: 100px;
 }
 
-input[type="text"]{
+input[type="text"] {
+  height: 80px;
   border: 2px solid black;
-  display: block;
-  padding: 34px 0;
   text-align: left;
   color: #cbcccb;
   float: left;
+  width: 80%;
   margin-right: 10px;
-  margin-bottom: 20px;
 }
 
 input[type="submit"] {
+  height: 86px;
   border: 2px solid black;
-  display: block;
-  padding: 34px 5px;
   border-radius: 4px;
+  width: 13%;
+  float: left;
 }
-
 
 /*___ review ___*/
 
-table{
-	border-collapse: collapse;
+.review {
+  position: absolute;
+  margin-bottom: 50px;
+}
+
+table {
+  border-collapse: collapse;
   height: 205px;
-  width: 600px;
+  width: 122%;
 }
 
 td {
@@ -75,7 +79,7 @@ td {
 }
 
 th  {
-	border: 1px solid black;
+  border: 1px solid black;
 }
 
 table tr:nth-child(2n+1) {
@@ -84,9 +88,9 @@ table tr:nth-child(2n+1) {
 
 th {
   background-color: #ccc;
-	font-size: 11px;
+  font-size: 11px;
   padding: 10px;
-	text-align: left;
+  text-align: left;
 }
 
 .first-td{
